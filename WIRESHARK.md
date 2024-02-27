@@ -1,24 +1,25 @@
 ### WIRESHARK
 
-**Wireshark** es una herramienta de análisis de protocolos de red de código abierto⁴. Originalmente conocido como Ethereal⁵, es ampliamente utilizado para diversas tareas, incluyendo:
+**Wireshark** es una herramienta de análisis de protocolos de red de código abierto⁴. Originalmente conocido como Ethereal, ampliamente empleada para diversas tareas, incluyendo:
 
-1. **Solución de problemas de red**: Wireshark permite a los usuarios capturar y examinar datos de tráfico en tiempo real, lo que ayuda a identificar y resolver problemas de red⁴⁵.
+1. **Solución de problemas de red**: Wireshark permite a los usuarios capturar y examinar datos de tráfico en tiempo real, lo que ayuda a identificar y resolver problemas de red.
 
-2. **Análisis de protocolos**: Wireshark puede ser utilizado para el desarrollo y depuración de protocolos, proporcionando una visibilidad detallada del tráfico de red⁵.
+2. **Análisis de protocolos**: Wireshark puede ser utilizado para el desarrollo y depuración de protocolos, proporcionando una visibilidad detallada del tráfico de red.
 
-3. **Auditoría de seguridad**: Wireshark es una herramienta valiosa para los profesionales de la seguridad informática, ya que puede ser utilizada para detectar anomalías de red y posibles amenazas de seguridad⁵.
+3. **Auditoría de seguridad**: Wireshark es una herramienta valiosa para los profesionales de la seguridad informática, ya que puede ser utilizada para detectar anomalías de red y posibles amenazas de seguridad.
+   
+5.  **Hacking en cualquiera de sus "sombreros". 
 
-
-
+### Instalación de wireshark sobre windows  (portable)
 
 ##  Taller No 1.
+**Desarrollo practica básica** 
+
+1. Desarrollar ejercicio propuesto en  https://www.incibe.es/sites/default/files/contenidos/webinars/webinar_wireshark_ejercicios.pdf
+2. Para ello descargar las trazas https://www.incibe.es/sites/default/files/contenidos/webinars/ficheros_ejercicio_wireshark.7z
 
 
-# Instalación de wireshark sobre windows  (portable)
 
-
-
-# Desarrollo practica básica 
 
 ## REFERENCIAS.
 
