@@ -10,15 +10,14 @@
    
 5.  **Hacking en cualquiera de sus "sombreros". 
 
-### Instalación de wireshark sobre windows  (portable)
+
 
 ##  Taller No 1.
 **Desarrollo practica básica** 
 
-1. Desarrollar ejercicio propuesto en  https://www.incibe.es/sites/default/files/contenidos/webinars/webinar_wireshark_ejercicios.pdf
-2. Para ello descargar las trazas https://www.incibe.es/sites/default/files/contenidos/webinars/ficheros_ejercicio_wireshark.7z
-
-
+1. Instalación de wireshark sobre windows  (portable)
+2. Desarrollar ejercicio propuesto en  https://www.incibe.es/sites/default/files/contenidos/webinars/webinar_wireshark_ejercicios.pdf
+3. Para ello descargar las trazas https://www.incibe.es/sites/default/files/contenidos/webinars/ficheros_ejercicio_wireshark.7z
 
 
 ## REFERENCIAS.
