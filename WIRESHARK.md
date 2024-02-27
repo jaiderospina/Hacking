@@ -11,6 +11,22 @@
 5.  **Hacking en cualquiera de sus "sombreros". 
 
 
+# Algunos filtros de Wireshark:
+
+| Tipo de filtro    | Explicación                                                                                                      | Ejemplo de uso                                   |
+|-------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| Filtro por dirección IP | Permite filtrar los paquetes según la dirección IP de origen o destino.                                         | `ip.addr == 192.168.1.100`                      |
+| Filtro por protocolo    | Filtra los paquetes según el protocolo utilizado, como TCP, UDP, ICMP, etc.                                     | `tcp`                                            |
+| Filtro por puerto       | Permite filtrar los paquetes según el número de puerto de origen o destino.                                      | `tcp.port == 80`                                |
+| Filtro por dirección MAC| Filtra los paquetes según la dirección MAC de origen o destino.                                                  | `eth.addr == 00:11:22:33:44:55`                 |
+| Filtro por dirección de red| Permite filtrar los paquetes según la dirección de red de origen o destino.                                     | `eth.dst == 00:11:22:33:44:55`                  |
+| Filtro por tipo de tráfico| Filtra los paquetes según el tipo de tráfico, como tráfico HTTP, DNS, FTP, etc.                                 | `http`                                           |
+| Filtro por longitud del paquete| Filtra los paquetes según su longitud en bytes.                                                                  | `frame.len > 100`                               |
+| Filtro por texto en el contenido| Filtra los paquetes que contienen cierto texto en su contenido, como palabras clave o cadenas específicas.      | `http.request.uri contains "login"`             |
+
+
+
+
 
 ##  Taller No 1.
 **Desarrollo practica básica** 
