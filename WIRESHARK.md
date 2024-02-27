@@ -25,7 +25,7 @@
 | Filtro por texto en el contenido| Filtra los paquetes que contienen cierto texto en su contenido, como palabras clave o cadenas específicas.      | `http.request.uri contains "login"`             |
 
 
-##  Taller No 1.
+##  Taller.
 **Desarrollo practica básica** 
 
 1. Instalación de wireshark sobre windows  (portable)
