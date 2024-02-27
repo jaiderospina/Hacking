@@ -11,6 +11,23 @@
 5.  **Hacking en cualquiera de sus "sombreros". 
 
 
+# Fases de anális de paquetes en Wireshark. 
+
+1. **Captura de Paquetes**: Esta es la fase inicial donde se capturan los paquetes de red. Wireshark ofrece la capacidad de seleccionar la interfaz de red de la cual se desea capturar el tráfico. Una vez que la captura está en marcha, Wireshark muestra en tiempo real todos los paquetes que pasan por esa interfaz.
+
+2. **Filtrado de Paquetes**: Durante la captura, es común que se capture una gran cantidad de datos. Por lo tanto, es esencial aplicar filtros para limitar los datos a los paquetes relevantes. Los filtros pueden ser aplicados basados en diferentes criterios como direcciones IP, puertos, protocolos, etc.
+
+3. **Análisis de Paquetes en Profundidad**: Una vez que se ha capturado el tráfico y se han aplicado los filtros necesarios, el siguiente paso es analizar los paquetes en detalle. En esta fase, se examinan los encabezados de los paquetes para comprender los diferentes protocolos involucrados, las direcciones de origen y destino, los datos transmitidos, los tiempos de respuesta, entre otros aspectos.
+
+4. **Identificación de Problemas**: Una de las principales razones para utilizar Wireshark es identificar problemas de red. Durante el análisis de paquetes, se buscan anomalías como errores de p
+5. rotocolo, congestión de red, latencia excesiva, pérdida de paquetes, entre otros. Estas anomalías pueden ayudar a identificar y solucionar problemas de rendimiento o seguridad en la red.
+
+6. **Correlación de Datos**: En entornos complejos, puede ser necesario correlacionar datos de múltiples paquetes para comprender completamente un flujo de comunicación o un evento en la red. Wireshark proporciona herramientas para seguir flujos de datos y correlacionar paquetes relacionados.
+
+7. **Generación de Informes**: Una vez completado el análisis, Wireshark ofrece la capacidad de generar informes detallados sobre el tráfico de red capturado. Estos informes pueden incluir estadísticas sobre el tráfico, resúmenes de problemas identificados, gráficos de flujo de datos, entre otros datos relevantes.
+
+En resumen, el proceso de análisis de paquetes en Wireshark implica la captura de paquetes, el filtrado para reducir el volumen de datos, el análisis detallado de los paquetes para identificar problemas o anomalías, la correlación de datos para comprender completamente los flujos de comunicación, y finalmente la generación de informes para documentar los hallazgos.
+
 # Algunos filtros de Wireshark:
 
 | Tipo de filtro    | Explicación                                                                                                      | Ejemplo de uso                                   |
