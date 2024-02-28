@@ -33,8 +33,10 @@ printf '%s\\n' "deb [arch=amd64] https://download.docker.com/linux/debian bullse
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/docker-ce-archive-keyring.gpg
 
 3.	Actualizar nuevamente la lista de paquetes disponibles:
+
 sudo apt update
 
 4.	Finalmente, instalar Docker CE:
+
 sudo apt install -y docker-ce docker-ce-cli containerd.io
 
