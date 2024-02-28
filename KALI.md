@@ -25,9 +25,11 @@ sudo usermod -aG docker $USER
 ## Docker CE (Community Edition), seguir estos pasos adicionales:
 
 1.	Agregar el repositorio de Docker CE a tu lista de fuentes de APT:
+
 printf '%s\\n' "deb [arch=amd64] https://download.docker.com/linux/debian bullseye stable" | sudo tee /etc/apt/sources.list.d/docker-ce.list
 
 2.	Importar la clave GPG de Docker:
+
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/docker-ce-archive-keyring.gpg
 
 3.	Actualizar nuevamente la lista de paquetes disponibles:
