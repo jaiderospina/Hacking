@@ -20,7 +20,7 @@ docker
    
 sudo usermod -aG docker $USER
 
-7.	Finalmente, cierra la sesión y vuelve a iniciarla para que los cambios tengan efecto1.
+7.	Finalmente, cierra la sesión y vuelve a iniciarla para que los cambios tengan efecto.
 
 ## Docker CE (Community Edition), seguir estos pasos adicionales:
 
