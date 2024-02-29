@@ -47,5 +47,5 @@ Esto podría resultar en la eliminación completa de la tabla de usuarios, lo qu
 ## Cómo prevenir la inyección SQL
 
 Para prevenir la inyección SQL, es crucial utilizar consultas parametrizadas o preparadas, que separan los datos del código SQL. Además, se deben implementar prácticas de validación y filtrado de datos para asegurarse de que solo se ingresen valores válidos en la base de datos.
-```
+
 
