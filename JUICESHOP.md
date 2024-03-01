@@ -1,6 +1,6 @@
 ## Indicaciones a manera de hoja de ruta de resolución de reto No 1 Juice Shop
 
-1. **Iniciar sesión en Juice Shop**: Abre el navegador en el host anfitrión  e inicia sesión en Juice Shop utilizando la URL proporcionada, tras desplegar su contenedor en Kali Linux.
+1. **Conectarse a  Juice Shop**: Abre el navegador en el host anfitrión  e ingrese en Juice Shop utilizando la URL proporcionada, tras desplegar su contenedor en Kali Linux.
 
 2. **Navegar por la aplicación**: Explora las diferentes secciones y páginas de Juice Shop para familiarizarte con la interfaz.
 
