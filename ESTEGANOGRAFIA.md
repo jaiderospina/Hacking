@@ -1,4 +1,70 @@
-text.md
+---
+
+# Manual Básico de Steghide
+
+Steghide es una herramienta de esteganografía que permite ocultar datos dentro de archivos de imagen y audio. Este manual proporciona una guía básica sobre cómo usar Steghide para ocultar y extraer información.
+
+## Instalación
+
+Para instalar Steghide en sistemas Unix-like, puedes utilizar el administrador de paquetes de tu distribución:
+
+```
+sudo apt install steghide       # Debian/Ubuntu
+sudo yum install steghide       # CentOS/RHEL
+```
+
+Para sistemas macOS, puedes usar Homebrew:
+
+```
+brew install steghide
+```
+
+## Ocultar Datos
+
+Para ocultar datos dentro de un archivo de imagen o audio, sigue estos pasos:
+
+1. **Selecciona el archivo de cubierta:** Elige el archivo de imagen o audio en el que quieres ocultar los datos.
+2. **Ejecuta el comando Steghide:** Utiliza el siguiente comando para ocultar los datos:
+
+```
+steghide embed -cf <archivo_de_cubierta> -ef <archivo_a_ocultar>
+```
+
+3. **Proporciona una contraseña:** Steghide te pedirá que ingreses una contraseña para proteger los datos ocultos.
+
+## Extraer Datos Ocultos
+
+Para extraer datos ocultos de un archivo de imagen o audio, sigue estos pasos:
+
+1. **Selecciona el archivo de cubierta:** Elige el archivo de imagen o audio del que quieres extraer los datos ocultos.
+2. **Ejecuta el comando Steghide:** Utiliza el siguiente comando para extraer los datos:
+
+```
+steghide extract -sf <archivo_de_cubierta>
+```
+
+3. **Proporciona la contraseña:** Si se ha protegido con contraseña, Steghide te pedirá que ingreses la contraseña para extraer los datos ocultos.
+
+## Consejos de Seguridad
+
+- Utiliza contraseñas seguras para proteger los datos ocultos.
+- Mantén una copia de seguridad de los archivos originales y los archivos con datos ocultos, ya que Steghide puede causar pérdida de datos si se utilizan comandos incorrectos.
+
+## Ejemplo de Uso
+
+Supongamos que queremos ocultar un archivo de texto llamado `secreto.txt` dentro de una imagen llamada `imagen.jpg`. Ejecutamos los siguientes comandos:
+
+```
+steghide embed -cf imagen.jpg -ef secreto.txt
+```
+
+Luego, para extraer el archivo oculto de `imagen.jpg`, ejecutamos:
+
+```
+steghide extract -sf imagen.jpg
+```
+
+---
 
 ## FLUJO RESOLUCIÓN RETO ESTEGANOGRAFIA -  ESTEGOANALISIS
 
