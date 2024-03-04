@@ -106,3 +106,58 @@ Paso 7: Decodificación del Mensaje
 - Aplica cualquier clave o algoritmo necesario para revelar el mensaje en texto legible.
 
 **Nota:** La solución exacta dependerá de las técnicas utilizadas y la complejidad del ocultamiento del mensaje. Es importante tener en cuenta que el hacking ético implica el uso de estas habilidades para propósitos legítimos y autorizados, respetando siempre la privacidad y la legalidad.
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+# VishwaCTF2023
+    
+  
+
+  ![](https://github.com/albertominan/WriteUps/blob/9ee610cb82de3432e4316c9185fd3c584385207c/Esteganograf%C3%ADa/VishwaCTF2023/GUATEMALA/capturas/AV.gif)
+  
+### Solución
+    
+    
+    vishwaCTF{pr073c7_ur_3X1F}
+  
+  
+### Análisis
+
+Analizamos metadatos y encontramos un Comment de la imagen en base64 que tras decodificarlo nos da la flag. 
+
+![](https://github.com/albertominan/WriteUps/blob/9ee610cb82de3432e4316c9185fd3c584385207c/Esteganograf%C3%ADa/VishwaCTF2023/GUATEMALA/capturas/1.png)
+
+
+********************************************************************************************************************************************************************
+
+
+## Codificación Base 64
+
+La codificación Base64 es un método para representar datos binarios utilizando un conjunto de 64 caracteres imprimibles. Estos caracteres incluyen letras mayúsculas y minúsculas, dígitos numéricos y algunos caracteres especiales como '+' y '/'. A menudo, una cadena codificada en Base64 terminará con uno o dos caracteres '=' que se utilizan para la alineación de los datos.
+
+Aquí hay algunos indicadores que podrían ayudar a reconocer la codificación Base64:
+
+1. **Caracteres específicos**: Una cadena codificada en Base64 contendrá caracteres específicos del conjunto de 64 caracteres permitidos, como letras mayúsculas y minúsculas, dígitos numéricos, '+' y '/'.
+
+2. **Longitud y alineación**: La longitud de una cadena codificada en Base64 generalmente es un múltiplo de 4, ya que cada grupo de 4 caracteres en la codificación Base64 representa tres bytes de datos binarios. Además, puede haber uno o dos caracteres '=' al final de la cadena, los cuales se utilizan para la alineación.
+
+3. **Preambulo**: En algunos casos, los datos codificados en Base64 pueden estar precedidos por un prefijo que indica que la cadena está codificada en Base64. Por ejemplo, "data:image/png;base64," es un preámbulo común en datos codificados en Base64 para imágenes en formato PNG.
+
+4. **Decodificación exitosa**: Si tratas de decodificar una cadena en Base64 y obtienes éxito, eso es una fuerte indicación de que la cadena estaba codificada en Base64. La decodificación fallará si la cadena no está codificada en Base64 o si ha sido alterada de alguna manera.
+
+Aquí tienes un ejemplo de una cadena codificada en Base64:
+
+```
+SGVsbG8gV29ybGQhIQ==
+```
+
+Y aquí está la versión decodificada:
+
+```
+Hello World!!
+```
+
+Si se sospecha que una cadena y sospechas que está codificada en Base64, puedes intentar decodificarla usando una herramienta en línea o un script en el lenguaje de programación de tu elección para confirmar si está en formato Base64 y para obtener los datos originales.
+
